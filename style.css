@@ -1,0 +1,49 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+.title {
+  padding: 1rem 0rem;
+}
+.note-list {
+  width: 5rem;
+}
+
+.editable {
+  width: 60rem;
+  height: 30rem;
+  border: 1px solid #ccc;
+}
+
+.editable .span-0 {
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.editable .span-b {
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.editable .span-u {
+  font-weight: normal;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.editable .span-i {
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+}
+/*  */
