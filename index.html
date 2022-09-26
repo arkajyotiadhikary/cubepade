@@ -28,6 +28,19 @@
                 <div class="note-list col-md-2 col-sm-12">
                     <h2 class="h5">Your Notes</h2>
                     <ul id="note-list-ul"></ul>
+                    <div class="d-flex justify-content-center w-100">
+                        <button
+                            class="cub-btn"
+                            style="
+                                position: absolute;
+                                bottom: 0;
+                                margin-bottom: 2rem;
+                            "
+                            onclick="addNew()"
+                        >
+                            <span class="material-symbols-outlined"> add </span>
+                        </button>
+                    </div>
                 </div>
                 <div class="notepad col-md-10 col-sm-12">
                     <input
@@ -81,8 +94,9 @@
                                 </span>
                             </button>
                             <button
+                                id="save-btn"
                                 class="cub-btn btn-bot"
-                                value="span-i"
+                                value="save"
                                 onclick="save()"
                             >
                                 <span class="material-symbols-outlined">

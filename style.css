@@ -26,6 +26,7 @@ header {
     scrollbar-width: none;
 }
 .note-list > ul {
+    height: 450px;
     padding: 0;
     list-style: none;
 }
