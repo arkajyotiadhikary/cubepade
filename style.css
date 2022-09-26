@@ -20,13 +20,13 @@ header {
 }
 .note-list {
     border-right: 1px solid #ced4da;
-    overflow-y: scroll;
     padding: 1rem 0rem;
     height: 90vh;
-    scrollbar-width: none;
 }
 .note-list > ul {
     height: 450px;
+    overflow-y: scroll;
+    scrollbar-width: none;
     padding: 0;
     list-style: none;
 }
